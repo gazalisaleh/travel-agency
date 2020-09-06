@@ -1,5 +1,5 @@
 body {
-    background-color: #e4e6eb;
+    background-color: #fff;
     font-family: 'Assistant', sans-serif;
     color: #071C4D;
 }
@@ -149,12 +149,16 @@ header{
 .section-networks {
     background-color: #fff;
     margin-top: -170px;
-    padding: 240px;
-    padding-bottom: 250px;
+    padding: 240px 100px 50px;
+    // padding-bottom: 50px;
 
 h2{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    font-size: 40px;
+}
+p {
+    font-size: 18px;
 }
 img {
     max-width: 100%;
@@ -163,6 +167,79 @@ img {
 }
 .section-testimonial-heading {
     background-color: #fff;
-    margin-top: -145px;
-    padding: 50px;
+    // margin-top: -145px;
+    padding-top: 50px;
+    min-height: 506px;;
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    // color: #071c4d;
+}
+p {
+    font-size: 18px;
+}
+
+}
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 30px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .testimonial-content {
+            min-height: 380px;
+            
+        }
+        h3 {
+            font-size: 22px;
+
+        }
+        .testimonial {
+            font-weight: 200;
+            font-size: 26px;
+            color: #686c78;
+
+        }
+        .trip-to {
+            font-weight: normal;
+            font-size: 22px;
+            color: #686c78;
+        }
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+            
+        }
+    }
+
+    .btn-get-started {
+        background-color: #ff9e53;
+        color: #fff;
+
+        &:hover{
+            background-color: #FFAA69;
+            color: #fff;
+        } //kalau mouse dikeatasin 
+    }
+    .btn-need-help {
+        background-color: #F2f2f2;
+        color: #c3c3c3;
+
+        &:hover{
+            background-color: #fafafa;
+            color: #fff;
+        } //kalau mouse dikeatasin 
+    }
+}
+.section-footer {
+    a {
+        color: #071c4d;
+        
+    }
 }
